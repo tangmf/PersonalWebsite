@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyWebsite</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Tang Ming Feng</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
+                    <li class="nav-item dropdown mx-0 mx-lg-1">
+                        <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="websites.html">Websites</a>
+                            <a class="dropdown-item" href="art.html">Art</a>
+                            <a class="dropdown-item" href="others.html">Others</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Websites</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center">
+            <!-- Portfolio Item 1-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <a href="https://tangmf.github.io/K-DA-Band-Website/">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">K/DA Band Website</div>
+                        </div>
+                        <img class="img-fluid" src="Images/kda.jpg" alt="kda" />
+                    </div>
+                </a>
+                <div class="page-section">
+                    <h4>K/DA Band Website</h4>
+                    <p>
+                        This website is made to promote K/DA's content, and act as a centralized place to distribute and sell content from K/DA to fans or going-to-be fans. Hence, the website needs to have easily accessible content like music videos, music and merchandise, as well as match the flashy style of the band's brand.
+                    </p>
+                    <h5>Links:</h5>
+                    <p>
+                        <a href="https://github.com/tangmf/K-DA-Band-Website">GitHub</a><br />
+                        <a href="https://tangmf.github.io/K-DA-Band-Website/">Website Link</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <a href="https://tangmf.github.io/LearnCovid/">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Learn Covid</div>
+                        </div>
+                        <img class="img-fluid" src="Images/Screenshot (357).png" alt="learncovid" />
+                    </div>
+                </a>
+                <div class="page-section">
+                    <h4>Learn Covid</h4>
+                    <p>
+                        This is a educational website which caters for kids to have a fun, interactive and educational experience learning about world issues like covid, making them more aware of the impacts of covid on the world.
+                    </p>
+                    <h5>Links:</h5>
+                    <p>
+                        <a href="https://github.com/tangmf/LearnCovid">GitHub</a><br />
+                        <a href="https://tangmf.github.io/LearnCovid/">Website Link</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2021 - MyWebsite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/site.js" asp-append-version="true"></script>
+</body>
+</html>
