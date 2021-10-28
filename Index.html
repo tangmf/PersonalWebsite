@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MyWebsite</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -23,19 +23,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="~/Home/Index">Home</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="~/Home/About">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
                     <li class="nav-item dropdown mx-0 mx-lg-1">
                         <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="Projects/Websites">Websites</a>
-                            <a class="dropdown-item" href="Projects/Art">Art</a>
-                            <a class="dropdown-item" href="Projects/Others">Others</a>
+                            <a class="dropdown-item" href="websites.html">Websites</a>
+                            <a class="dropdown-item" href="art.html">Art</a>
+                            <a class="dropdown-item" href="others.html">Others</a>
                         </div>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="~/Home/Contact">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@
                         <div class="row justify-content-center">
                             <!-- Portfolio Item 1-->
                             <div class="col-md-6 col-lg-4 mb-5">
-                                <a href="~/Projects/Index">
+                                <a href="projects.html">
                                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                             <div class="portfolio-item-caption-content text-center text-white">Projects</div>
@@ -76,7 +76,7 @@
                             </div>
                             <!-- Portfolio Item 2-->
                             <div class="col-md-6 col-lg-4 mb-5">
-                                <a href="~/Home/About">
+                                <a href="about.html">
                                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                             <div class="portfolio-item-caption-content text-center text-white">About</div>
@@ -87,7 +87,7 @@
                             </div>
                             <!-- Portfolio Item 3-->
                             <div class="col-md-6 col-lg-4 mb-5">
-                                <a href="~/Home/Contact">
+                                <a href="contact.html">
                                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                             <div class="portfolio-item-caption-content text-center text-white">Contact Me</div>
@@ -110,8 +110,8 @@
             &copy; 2021 - MyWebsite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
 </body>
 </html>
